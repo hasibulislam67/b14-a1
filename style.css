@@ -36,20 +36,42 @@ ul{
             list-style-type: none;
         }
         
-        .banner{
-            background-image:url(assets/banner.jpg)
-                      
-            color: #131313;
+        .banner-content{
+           color: #ffffff;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin-top : 200px;
-
-            padding: 100px 20;
+             align-items: center;
+             text-align: center;
             
         }
-        .banner-image{
-            max-width: 1900px;
-            height:100%;
-            object-fit: cover;
+        .banner{
+             background-image: url(assets/banner.jpg);
+             background-size: cover;
+
+             background-position: center;
+             background-repeat: no-repeat;
+             height: 90vh;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-top : 3px;
+             
         }
+        
+     .lol{
+        margin-top: 250px;
+     }
+     .Speakers{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr) ;
+     justify-items: space-around;
+     border-left: 200px;
+     
+
+     }
+     .lmao{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+     }
