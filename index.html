@@ -8,6 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+        
 </head>
 <body>
     <section>
@@ -17,7 +18,7 @@
                 <li>DEVCONF <br>2026</li>
             </div>
             
-            <ul>
+            <ul class="nav-ul">
                  <li>Speakers</li>
                 <li>Schedule</li>
                 <li>Tracks</li>
@@ -40,36 +41,102 @@
             </div>
             </div>
                           
-          </section >
+          </section  >
           <!-- speaker section -->
-           <section >
-            <h2 class="lmao">Meet the Speakers</h2>
-            <div class="Speakers">
-            <div>
-                <img src="assets/andrej.png" alt="">
-                <p>AI / ML</p>
+          <section class="speaker-parent">
+    <h2 class="lmao">Meet the Speakers</h2>
+
+    <div class="Speakers">
+
+        <div class="speaker-card">
+            <img src="assets/andrej.png" alt="Andrej Karpathy">
+            <div class="speaker-content">
+                <p class="mark">AI / ML</p>
                 <h4>Andrej Karpathy</h4>
                 <p>Pretraining team, Anthropic</p>
             </div>
-            <div>
-                <img src="assets/demis.png" alt="">
-                <p>Cloud & DevOps</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="assets/demis.png" alt="Demis Hassabis">
+            <div class="speaker-content">
+                <p class="mark">Cloud & DevOps</p>
                 <h4>Demis Hassabis</h4>
                 <p>Co-Founder and CEO, Google DeepMind</p>
             </div>
-            <div>
-                <img src="assets/gary.png" alt="">
-                <p>Frontend</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="assets/gary.png" alt="Gary Marcus">
+            <div class="speaker-content">
+                <p class="mark">Frontend</p>
                 <h4>Gary Marcus</h4>
                 <p>Staff Engineer, Vercel</p>
             </div>
-            <div>
-                <img src="assets/mustafa.png" alt="">
-                <p>Security</p>
+        </div>
+
+        <div class="speaker-card">
+            <img src="assets/mustafa.png" alt="Mustafa Suleyman">
+            <div class="speaker-content">
+                <p class="mark">Security</p>
                 <h4>Mustafa Suleyman</h4>
-                <p>CEO of Microsoft A</p>
+                <p>CEO of Microsoft AI</p>
             </div>
-           </div>
-           </section>
+        </div>
+
+    </div>
+</section>
+<!-- PRICING -->
+ <section class="pricing">
+    <div class="pricing-parent">
+    <h1>Secure Your Spot</h1>
+    <p>Early-bird pricing ends August 15, 2026.</p>
+    <div>
+         <div class="">
+        <p>Standard</p>
+        <h1>$399</h1>
+        <p>per person</p>
+             <ul class="feature">
+                <li>Access to all 3 conference days</li>
+                <li>48 curated technical talks</li>
+                <li>2 workshop sessions</li>
+                <li>Networking lunch & coffee breaks</li>
+                <li>Conference swag bag</li>
+                <li>Digital recordings (30 days)</li>
+            </ul>
+         <button class="get-btn">Get Standard</button>
+        </div>
+         <div>
+        <p>Pro</p>
+        <h1>$749</h1>
+        <p>per person</p>
+             <ul class="feature">
+                <li>Everything in Standard</li>
+                <li>Unlimited workshop access</li>
+                <li>Speaker meet & greet</li>
+                <li>VIP networking dinner</li>
+                <li>Lifetime recording access</li>
+                <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+         <button class="get-btn">Get Standard</button>
+        </div>
+         <div>
+        <p>Team</p>
+        <h1>$5,999</h1>
+        <p>per person</p>
+             <ul class="feature">
+                <li>Everything in Pro (10 seats)</li>
+                <li>Dedicated team lounge access</li>
+                <li>Private workshop booking</li>
+                <li>Company logo on event page</li>
+                <li>Recruitment booth (1 day)</li>
+                <li>Priority customer support</li>
+            </ul>
+         <button class="get-btn">Get Standard</button>
+        </div>
+    </div>
+    </div>
+                 
+ </section>
 </body>
 </html>
