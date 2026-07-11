@@ -101,7 +101,9 @@
 .pricing{
     max-width: 1200px;
     margin: auto;
-    text-align: center;
+     font-weight: bold;
+    margin: 10px 0;
+    padding-left: 70px;
 }
 
 .pricing-parent h1{
@@ -116,7 +118,65 @@
     border-radius: 10px;
     background: #fff;
     text-align: left;
+    padding-left: 30px;
 }
-ul{
+.pricing-grid {
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 444px;
+     margin: 40px 0px;
+     max-width: 1100px;
+      padding-left: 60px;
+  
+    
+    
+}
+.pricing-h1{
+    text-align: center;
+    font-size: 48px;
+}
+.pricing-p1{
+    text-align: center;
+}
+.pring-card{
+    border: 1px solid #E5E7EB;
+    padding: 20px 15px;
+   border-radius: 12px;
    
+    }
+    .feature{
+    margin: 25px 0;
+    padding-left: 20px;
+    }
+
+    .feature li{
+    margin-bottom: 15px;
+    color: #569cff;
+    }
+    .get-btn{
+    
+    padding: 12px;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    background: white;
+    color: #2563EB;
+    cursor: pointer;
+    width: 100%;
+   
+}
+.pro-card {
+    background-color: #1a2741;
+    color: white;
+}
+.pro-card .get-btn {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    width: 100%;
+}
+.pro-card li {
+    color: #E5E7EB;
 }
