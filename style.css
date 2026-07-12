@@ -180,3 +180,64 @@
 .pro-card li {
     color: #E5E7EB;
 }
+
+/* foooter  */
+.footer{
+    background: #213955;
+    color: white;
+    padding: 30px 60px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo h2,
+.footer-logo p{
+    margin: 0;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.social p{
+    margin-right: 10px;
+}
+
+.social img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.footer hr{
+    margin: 25px 0;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links p{
+    margin: 0;
+    cursor: pointer;
+}
