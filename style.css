@@ -5,7 +5,8 @@
     align-items: center;
     max-width: 1200px;
     margin-left: 75px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Arimo", sans-serif;
+
 
 
 }
@@ -29,6 +30,7 @@
             border-radius: 5px;
             border: none;
             cursor: pointer;
+            font-family: "Inter", sans-serif;
         }
         .logo{
             display: flex;
@@ -58,7 +60,8 @@
              justify-content: center;
              align-items: center;
              margin-top : 3px;
-             
+             font-family: "Inter", sans-serif;
+            
         }
         
  .speaker-parent{
@@ -77,6 +80,7 @@
     border-radius: 10px;
     overflow: hidden;
     background: #fff;
+    font-family: "Inter", sans-serif;
 }
 
 .speaker-card img{
@@ -130,6 +134,7 @@
      margin: 40px 0px;
      max-width: 1100px;
       padding-left: 60px;
+      font-family: "Inter", sans-serif;
   
     
     
@@ -145,6 +150,7 @@
     border: 1px solid #E5E7EB;
     padding: 20px 15px;
    border-radius: 12px;
+   font-family: "Inter", sans-serif;
    
     }
     .feature{
@@ -165,6 +171,7 @@
     color: #2563EB;
     cursor: pointer;
     width: 100%;
+    font-family: "Inter", sans-serif;
    
 }
 .pro-card {
@@ -176,6 +183,7 @@
     color: white;
     border: none;
     width: 100%;
+    font-family: "Inter", sans-serif;
 }
 .pro-card li {
     color: #E5E7EB;
@@ -240,4 +248,51 @@
 .footer-links p{
     margin: 0;
     cursor: pointer;
+}
+/* ai section */
+.schedule{
+    max-width: 1000px;
+    margin: 80px auto;
+}
+
+.schedule-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.schedule-text{
+    text-align: center;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.schedule-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.schedule-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.time{
+    width: 150px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2563EB;
+}
+
+.details h3{
+    margin-bottom: 8px;
+}
+
+.details p{
+    color: #666;
 }
